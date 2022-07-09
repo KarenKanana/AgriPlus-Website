@@ -2,14 +2,14 @@
 
 
 ## Table of Contents
-1. [Project Description](https://github.com/KarenKanana/AgriPlus-Website/blob/gh-pages/README.md##description)
-2. [Features](https://github.com/KarenKanana/AgriPlus-Website/blob/gh-pages/README.md##Features)
-3. [Technologies Used](https://github.com/KarenKanana/AgriPlus-Website/blob/gh-pages/README.md##Technology Used)
-4. [Setup Instructions](https://github.com/KarenKanana/AgriPlus-Website/blob/gh-pages/README.md##Setup Instructions)
-5. [Live Page](https://github.com/KarenKanana/AgriPlus-Website/blob/gh-pages/README.md##Live Page)
-6. [Copyright and license information](https://github.com/KarenKanana/AgriPlus-Website/blob/gh-pages/README.md##Copyright and license information)
-7. [Author's Information](https://github.com/KarenKanana/AgriPlus-Website/blob/gh-pages/README.md##Author's Information)
-8. [Support and contact details](https://github.com/KarenKanana/AgriPlus-Website/blob/gh-pages/README.md##Support and contact details)
+- [Project Description]()
+- [Features]()
+- [Technologies Used]()
+- [Setup Instructions]()
+- [Live Page]()
+- [Copyright and license information]()
+- [Author's Information]()
+- [Support and contact details]()
 
 
 ## Project Description

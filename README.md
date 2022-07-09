@@ -2,14 +2,14 @@
 
 
 ## Table of Contents
-- [Project Description]()
-- [Features]()
-- [Technologies Used]()
-- [Setup Instructions]()
-- [Live Page]()
-- [Copyright and license information]()
-- [Author's Information]()
-- [Support and contact details]()
+- #### [Project Description]()
+- #### [Features]()
+- #### [Technologies Used]()
+- #### [Setup Instructions]()
+- #### [Live Page]()
+- #### [Copyright and license information]()
+- #### [Author's Information]()
+- #### [Support and contact details]()
 
 
 ## Project Description

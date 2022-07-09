@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Poppins:ital,wght@0,200;1,300&display=swap');
+*{
+margin: 0px;
+padding: 0px;
+
+}
+body{
+    background-color: #FAFAFA;
+    font-family: 'Poppins', 'Inter', sans-serif ;
+
+}
+/* Navigation bar */
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+
+    
+}
+.logo{
+    color: #FAFAFA;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: 500;
+    font-family: 'Poppins', 'Inter', sans-serif;
+    text-align: left;
+
+    
+}
+header{
+    background-image: url("assets/images/Assets/image 1.png");
+}
+    
+
+}

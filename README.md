@@ -2,7 +2,7 @@
 
 
 ## Table of Contents
-- #### [Project Description](## Project Description)
+- #### [Project Description]()
 - #### [Features]()
 - #### [Technologies Used]()
 - #### [Setup Instructions]()

@@ -39,6 +39,7 @@ AgriPlus Website landing page  uses the following tech to work properly:
 
 ## Copyright and license information
 > [MIT License](https://github.com/KarenKanana/AgriPlus-Website/blob/master/license)
+
 Copyright (c) 2022 Karen Kanana
 
 ## Author's Information

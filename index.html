@@ -2,78 +2,173 @@
 <html lang="en">
 
 <head>
-
-    <title>AgriPlus</title>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./assets/css/style.css" rel="stylesheet">
+    <title>AgriPlus</title>
+    <link rel="stylesheet" href="assets/css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,100;1,200;1,300;1,400&display=swap"
-        rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <div class="container">
+  <!-- Header/Navbar section -->
+  <header>
+      <nav class="nav">
+          <h1 class="name">AgriPlus</h1>
+          <ul class="nav-menu">
+              <li class="nav-links active"><a href="#">Home</a></li>
+              <li class="nav-links"><a href="#">About</a></li>
+              <li class="nav-links"><a href="#">Products</a></li>
+              <li class="nav-links"><a href="#">Contact Us</a></li>
+          </ul>
+          <div class="call-action">
+              <a href="#" class="login">Login</a>
+              <button type="submit" class="started">Get Started</button>
+          </div>
+      </nav>
+  </header>
 
-        <!--Navigation Bar-->
-        <div class="topnav">
-            <div class="menu">
-                <a id="logo">AgriPlus</a>
-                <a class="active" href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#products">Products</a>
-                <a href="#conttact">Contact Us</a>
-                <div class="login">
-                    <button type="button" id="login" class="button-started pull-right">Login</button>
-
+  <!-- Buying and Selling Section  -->
+    <section class="buying-section">
+        <div class="selling">
+            <div class="selling-left">
+                <div class="selling-inner-left">
+                    <h1>Buying and selling quality farm produce has never been easier</h1>
+                    <p>AgriPlus is here to have you sorted, you can order farm produce from farmers, harversters and
+                        producers directly.</p>
+                    <button class="explore-more">Explore More</button>
                 </div>
-                <div class="start">
-                    <button type="button" id="gstarted" class="button-started pull-right">Get Started</button>
+            </div>
+            <div class="selling-right">
+                <img src="assets/images/image 2.png" alt="">
+            </div>
+        </div>
+        <div class="selling-bottom">
+            <div class="selling-bottom-container">
+                <div class="vendors">
+                    <h2>200+</h2>
+                    <h2>Verified Vendors</h2>
+                </div>
+                <div class="vendors">
+                    <h2>105+</h2>
+                    <h2>Happy Customers</h2>
+                </div>
+                <div class="vendors">
+                    <h2>2000+</h2>
+                    <h2>Nationwide Customers</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Why we exist section  -->
+    <section class="why-exist">
+        <div class="why-left">
+            <div class="why-container">
+                <h2 class="why">Why we exist
+                    <hr class="horizontal-rule">
+                </h2>
+                <p class="why">We are built to make your work easier. Like any online ecommerce, AgriPlus provides a
+                    great
+                    platform to reach their customers throughout the country. We have made it easier to shop from
+                    anywhere
+                    through the platform.</p>
+            </div>
+        </div>
+        <div class="why-right">
+            <img src="assets/images/image 3.png" alt="">
+        </div>
+    </section>
+
+
+    <!-- Categories of Procucts Section -->
+    <section class="categories">
+        <div class="product-categories">
+            <h2 class="product-categories">Our categories of products</h2>
+            <p class="product-categories">We go beyond borders to ensure you get fresh produce from the farm. Our customer
+                satisfaction is our mission.</p>
+        </div>
+
+        <div class="most-popular">
+            <div class="first-column">
+                <h2 class="most-popular">Most Popular
+                    <hr class="popular">
+                </h2>
+                <div class="image">
+                    <div class="image-card">
+                        <img src="assets/images/Rectangle 5.png" alt="Image of fresh Carrots">
+                        <h5>Fresh Carrots</h5>
+                        <p>Kinyanjui Farmers Association</p>
+                        <h6>Ksh 200/Kg</h6>
+                    </div>
+                    <div class="image-card">
+                        <img src="assets/images/image 4.png" alt="Image of various cereals">
+                        <h5>Cereals</h5>
+                        <p>Kenya Cereals Board</p>
+                        <h6>Ksh 5,000/bag</h6>
+                    </div>
+                    <div class="image-card">
+                        <img src="assets/images/image 5.png" alt="Image of fresh tilapia">
+                        <h5>Fresh Fish</h5>
+                        <p>Mr. Otieno</p>
+                        <h6>Ksh 500/Kg</h6>
+                    </div>
+                    <div class="image-card">
+                        <img src="assets/images/image 6.png" alt="Image of fresh kales">
+                        <h5>Kales/Sukuma Wiki</h5>
+                        <p>Njoki's Farm</p>
+                        <h6>Ksh 50/bunch</h6>
+                    </div>
                 </div>
             </div>
 
-        </div>
-        <!--Intro section-->
-        <!--<div class="header">
-            <div class="text">
-                <h1>Buying and selling quality farm produce has never<br> been easier.</h1>
-                <p>AgriPlus is here to have you sorted, you can order farm <br> produce from farmers, harvesters, and
-                    producers <br> directly.</p>
-                <div class="btn">
-                    <button type="button" class="action" style="margin-right:8px">Explore More</button>
+            <!-- Newest Item Column -->
+            <div class="first-column">
+                <h2 class="most-popular">Newest Item
+                    <hr class="popular">
+                </h2>
+                <div class="image">
+                    <div class="image-card">
+                        <img src="assets/images/Rectangle 6.png" alt="Image of a chicken farm">
+                        <h5>Chicken</h5>
+                        <p>Wafula Farm</p>
+                        <h6>Ksh 700</h6>
+                    </div>
+                    <div class="image-card">
+                        <img src="assets/images/Rectangle 7.png" alt="Image of white rice">
+                        <h5>Ahero/Ir Rice</h5>
+                        <p>Ahero Irrigation Board</p>
+                        <h6>Ksh 200/Kg</h6>
+                    </div>
+                    <div class="image-card">
+                        <img src="assets/images/Rectangle 8.png" alt="Image of Mursik">
+                        <h5>Mursik</h5>
+                        <p>Korir Dairy Farm</p>
+                        <h6>Ksh 200/Kg</h6>
+                    </div>
+                    <div class="image-card">
+                        <img src="assets/images/Rectangle 9.png" alt="Image of Fresh tomatoes">
+                        <h5>Fresh Tomatoes</h5>
+                        <p>TZ Farmers Association</p>
+                        <h6>Ksh 5000/Crate</h6>
+                    </div>
 
                 </div>
-                <div class="img_content">
-                    <img src="assets/images/Assets/image 2.png">
-                </div>
             </div>
-            <div class="btn">
-                <button type="button" name="button">Explore More</button>
-            </div>
-            <p>200+</p>
-            <p>Verified Vendors</p>
-            <p>105+</p>
-            <p>Happy Customers</p>
-            <p>2000+</p>
-            <p>Nation Wide Customers</p>
-            <p>66</p>
-        </div>
 
-        <!--Mid-section-->
-        <!--<div class="why">
-            <h3>Why we exist</h3>
-            <p>We are built to make your work easier. Like any online<br>ecommerce, Agriplus provide a great platform
-                for<br>farmers to reach their customers throughout the<br>country. We have made it easier to shop
-                from<br>anywhere through the platform</p>
-            <h3>Our Categories of Products</h3>
-            <p>We go beyond the borders to ensure you get fresh produce<br>from the farm. Our customer satisfaction is
-                our
-                mission.</p>
+            <div class="see">
+                <p class="see-all">
+                    See All <i class="fa fa-arrow-right" style="font-size:25px;color:#ED661F"></i>
+                </p>
+                <hr>
+            </div>
+            <hr class="lower-hr">
         </div>
-        -->
+    </section>
 </body>
 
 </html>
